@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cave of Evil Corvax</title>
+    <title>Home on Cave of Evil Corvax</title>
     <link>https://evilcorvax.github.io/</link>
-    <description>Recent content on Cave of Evil Corvax</description>
+    <description>Recent content in Home on Cave of Evil Corvax</description>
     <generator>Hugo</generator>
     <language>ru-ru</language>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="https://evilcorvax.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
