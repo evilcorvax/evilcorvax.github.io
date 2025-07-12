@@ -1,3 +1,57 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://evilcorvax.github.io/'
+languageCode = 'ru-ru'
+title = "Cave of Evil Corvax"
+theme = "hugo-resume"
+publishdir = "./public/"
+
+
+# PygmentsCodeFences = true
+# PygmentsCodeFencesGuessSyntax = true
+# PygmentsStyle = "monokai"
+# enableGitInfo = false
+
+[params]
+address = "Москва, Россия"
+email = "a.shalkauskas@yandex.ru"
+favicon = "/favicon.ico"
+firstName = "Андрей"
+lastName = "Шалкаускас"
+phone = "+79914042252"
+profileImage = "img/photo.jpg"
+showQr = true
+showContact = true
+showBoards  = true
+showCertifications = true
+showSocializations = true
+sections = ["skills","experience","education","blog"]
+
+
+
+[[params.handles]]
+    name = "Telegram"
+    link = "https://www.linkedin.com/in/edwardwebb/"
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/eddiewebb/"
+
+[[params.handles]]
+    name = "Instagram"
+    link = "https://keybase.io/edwardawebb"
+    icon = "keybase"
+    
+[[params.handles]]
+    name = "Bluesky"
+    link = "https://bsky.app/profile/webbinaro.dev"
+    icon = "bluesky"
+
+[[params.handles]]
+    link = "https://stackoverflow.com/users/82880/eddie"
+    name = "Stack Overflow"
+    icon = "stack-overflow"
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"
